@@ -16,16 +16,11 @@ end
 
 target 'CCLiveChat' do
   config = use_native_modules!
-
+  $sdkVersion = 'v1.0.4'
   pod 'GoogleUtilities', :modular_headers => true
   pod 'FirebaseCore', :modular_headers => true
   pod 'FirebaseInstallations', :modular_headers => true
   pod 'FirebaseABTesting', :modular_headers => true
-
-   # Live Chat
-   pod 'AdaptiveCards'
-  # update latest ContactCenterMessagingSDK version
-  $sdkVersion = 'v1.0.2'
   pod 'ContactCenterMessagingSDK', :podspec => 'https://github.com/microsoft/ContactCenterMessagingSDK-ios/releases/download/' + $sdkVersion + '/ContactCenterMessagingSDK-ios.podspec'
 
   use_react_native!(
