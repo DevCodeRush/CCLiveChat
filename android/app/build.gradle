@@ -110,6 +110,11 @@ android {
 dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")
+    // Live Chat
+    implementation(files("libs/ContactCenterMessagingWidget.aar"))
+    implementation(files("libs/OmnichannelChatSDK.aar"))
+    implementation("com.google.android.flexbox:flexbox:3.0.0")
+    implementation("io.adaptivecards:adaptivecards-android:2.9.0")
 
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")

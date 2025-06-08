@@ -1,6 +1,5 @@
 PODS:
   - boost (1.84.0)
-  - ContactCenterMessagingSDK (1.0.4)
   - DoubleConversion (1.1.6)
   - fast_float (6.1.4)
   - FBLazyVector (0.76.9)
@@ -1736,7 +1735,6 @@ PODS:
 
 DEPENDENCIES:
   - boost (from `../node_modules/react-native/third-party-podspecs/boost.podspec`)
-  - ContactCenterMessagingSDK (from `https://github.com/microsoft/ContactCenterMessagingSDK-ios/releases/download/v1.0.4/ContactCenterMessagingSDK-ios.podspec`)
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - fast_float (from `../node_modules/react-native/third-party-podspecs/fast_float.podspec`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
@@ -1837,8 +1835,6 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   boost:
     :podspec: "../node_modules/react-native/third-party-podspecs/boost.podspec"
-  ContactCenterMessagingSDK:
-    :podspec: https://github.com/microsoft/ContactCenterMessagingSDK-ios/releases/download/v1.0.4/ContactCenterMessagingSDK-ios.podspec
   DoubleConversion:
     :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
   fast_float:
@@ -1985,7 +1981,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost: 1dca942403ed9342f98334bf4c3621f011aa7946
-  ContactCenterMessagingSDK: 84f41ce2283e52369e65fa20eb8224d0edee4df6
   DoubleConversion: f16ae600a246532c4020132d54af21d0ddb2a385
   fast_float: 06eeec4fe712a76acc9376682e4808b05ce978b6
   FBLazyVector: 7605ea4810e0e10ae4815292433c09bf4324ba45
@@ -2074,6 +2069,6 @@ SPEC CHECKSUMS:
   Yoga: feb4910aba9742cfedc059e2b2902e22ffe9954a
   ZIPFoundation: b8c29ea7ae353b309bc810586181fd073cb3312c
 
-PODFILE CHECKSUM: 678036c7359f2f5a3b1c3f645b7e3727c0515372
+PODFILE CHECKSUM: c76139e30f32e7e61cdbd3650793334f6e53d6c1
 
 COCOAPODS: 1.16.2
