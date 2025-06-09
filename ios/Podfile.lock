@@ -1,6 +1,10 @@
 PODS:
+  - AdaptiveCards (2.8.0):
+    - AdaptiveCards/ObjectModel (= 2.8.0)
+    - MicrosoftFluentUI (~> 0.2.6)
+  - AdaptiveCards/ObjectModel (2.8.0):
+    - MicrosoftFluentUI (~> 0.2.6)
   - boost (1.84.0)
-  - ContactCenterMessagingSDK (1.0.4)
   - DoubleConversion (1.1.6)
   - fast_float (6.1.4)
   - FBLazyVector (0.76.9)
@@ -94,6 +98,158 @@ PODS:
   - hermes-engine (0.76.9):
     - hermes-engine/Pre-built (= 0.76.9)
   - hermes-engine/Pre-built (0.76.9)
+  - MicrosoftFluentUI (0.2.10):
+    - MicrosoftFluentUI/ActivityIndicator_ios (= 0.2.10)
+    - MicrosoftFluentUI/ActivityViewAnimating_ios (= 0.2.10)
+    - MicrosoftFluentUI/Appearance_mac (= 0.2.10)
+    - MicrosoftFluentUI/Avatar_ios (= 0.2.10)
+    - MicrosoftFluentUI/AvatarView_mac (= 0.2.10)
+    - MicrosoftFluentUI/BadgeField_ios (= 0.2.10)
+    - MicrosoftFluentUI/BarButtonItems_ios (= 0.2.10)
+    - MicrosoftFluentUI/BottomCommanding_ios (= 0.2.10)
+    - MicrosoftFluentUI/BottomSheet_ios (= 0.2.10)
+    - MicrosoftFluentUI/Button_ios (= 0.2.10)
+    - MicrosoftFluentUI/Button_mac (= 0.2.10)
+    - MicrosoftFluentUI/Calendar_ios (= 0.2.10)
+    - MicrosoftFluentUI/Card_ios (= 0.2.10)
+    - MicrosoftFluentUI/CommandBar_ios (= 0.2.10)
+    - MicrosoftFluentUI/Core_ios (= 0.2.10)
+    - MicrosoftFluentUI/Core_mac (= 0.2.10)
+    - MicrosoftFluentUI/DatePicker_mac (= 0.2.10)
+    - MicrosoftFluentUI/DotView_ios (= 0.2.10)
+    - MicrosoftFluentUI/Drawer_ios (= 0.2.10)
+    - MicrosoftFluentUI/DynamicColor_mac (= 0.2.10)
+    - MicrosoftFluentUI/EasyTapButton_ios (= 0.2.10)
+    - MicrosoftFluentUI/HUD_ios (= 0.2.10)
+    - MicrosoftFluentUI/IndeterminateProgressBar_ios (= 0.2.10)
+    - MicrosoftFluentUI/Label_ios (= 0.2.10)
+    - MicrosoftFluentUI/Link_mac (= 0.2.10)
+    - MicrosoftFluentUI/Navigation_ios (= 0.2.10)
+    - MicrosoftFluentUI/Notification_ios (= 0.2.10)
+    - MicrosoftFluentUI/Obscurable_ios (= 0.2.10)
+    - MicrosoftFluentUI/OtherCells_ios (= 0.2.10)
+    - MicrosoftFluentUI/PeoplePicker_ios (= 0.2.10)
+    - MicrosoftFluentUI/PillButtonBar_ios (= 0.2.10)
+    - MicrosoftFluentUI/PopupMenu_ios (= 0.2.10)
+    - MicrosoftFluentUI/Presenters_ios (= 0.2.10)
+    - MicrosoftFluentUI/ResizingHandleView_ios (= 0.2.10)
+    - MicrosoftFluentUI/ScrollView_ios (= 0.2.10)
+    - MicrosoftFluentUI/SegmentedControl_ios (= 0.2.10)
+    - MicrosoftFluentUI/Separator_ios (= 0.2.10)
+    - MicrosoftFluentUI/Separator_mac (= 0.2.10)
+    - MicrosoftFluentUI/Shimmer_ios (= 0.2.10)
+    - MicrosoftFluentUI/TabBar_ios (= 0.2.10)
+    - MicrosoftFluentUI/TableView_ios (= 0.2.10)
+    - MicrosoftFluentUI/Tooltip_ios (= 0.2.10)
+    - MicrosoftFluentUI/TouchForwardingView_ios (= 0.2.10)
+    - MicrosoftFluentUI/TwoLineTitleView_ios (= 0.2.10)
+    - MicrosoftFluentUI/Utilities_ios (= 0.2.10)
+  - MicrosoftFluentUI/ActivityIndicator_ios (0.2.10):
+    - MicrosoftFluentUI/ActivityViewAnimating_ios
+  - MicrosoftFluentUI/ActivityViewAnimating_ios (0.2.10):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/Avatar_ios (0.2.10):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/BadgeField_ios (0.2.10):
+    - MicrosoftFluentUI/Label_ios
+  - MicrosoftFluentUI/BarButtonItems_ios (0.2.10):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/BottomCommanding_ios (0.2.10):
+    - MicrosoftFluentUI/BottomSheet_ios
+    - MicrosoftFluentUI/OtherCells_ios
+    - MicrosoftFluentUI/Separator_ios
+    - MicrosoftFluentUI/TabBar_ios
+    - MicrosoftFluentUI/TableView_ios
+  - MicrosoftFluentUI/BottomSheet_ios (0.2.10):
+    - MicrosoftFluentUI/Obscurable_ios
+    - MicrosoftFluentUI/ResizingHandleView_ios
+  - MicrosoftFluentUI/Button_ios (0.2.10):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/Calendar_ios (0.2.10):
+    - MicrosoftFluentUI/BarButtonItems_ios
+    - MicrosoftFluentUI/DotView_ios
+    - MicrosoftFluentUI/Label_ios
+    - MicrosoftFluentUI/Presenters_ios
+    - MicrosoftFluentUI/SegmentedControl_ios
+    - MicrosoftFluentUI/Separator_ios
+    - MicrosoftFluentUI/TwoLineTitleView_ios
+  - MicrosoftFluentUI/Card_ios (0.2.10):
+    - MicrosoftFluentUI/Label_ios
+  - MicrosoftFluentUI/CommandBar_ios (0.2.10):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/Core_ios (0.2.10)
+  - MicrosoftFluentUI/DotView_ios (0.2.10):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/Drawer_ios (0.2.10):
+    - MicrosoftFluentUI/Obscurable_ios
+    - MicrosoftFluentUI/ResizingHandleView_ios
+    - MicrosoftFluentUI/Separator_ios
+    - MicrosoftFluentUI/TouchForwardingView_ios
+  - MicrosoftFluentUI/EasyTapButton_ios (0.2.10):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/HUD_ios (0.2.10):
+    - MicrosoftFluentUI/ActivityIndicator_ios
+    - MicrosoftFluentUI/Label_ios
+    - MicrosoftFluentUI/TouchForwardingView_ios
+  - MicrosoftFluentUI/IndeterminateProgressBar_ios (0.2.10):
+    - MicrosoftFluentUI/ActivityViewAnimating_ios
+  - MicrosoftFluentUI/Label_ios (0.2.10):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/Navigation_ios (0.2.10):
+    - MicrosoftFluentUI/ActivityIndicator_ios
+    - MicrosoftFluentUI/Avatar_ios
+    - MicrosoftFluentUI/Separator_ios
+    - MicrosoftFluentUI/TwoLineTitleView_ios
+  - MicrosoftFluentUI/Notification_ios (0.2.10):
+    - MicrosoftFluentUI/Label_ios
+    - MicrosoftFluentUI/Obscurable_ios
+    - MicrosoftFluentUI/Separator_ios
+  - MicrosoftFluentUI/Obscurable_ios (0.2.10):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/OtherCells_ios (0.2.10):
+    - MicrosoftFluentUI/ActivityIndicator_ios
+    - MicrosoftFluentUI/TableView_ios
+  - MicrosoftFluentUI/PeoplePicker_ios (0.2.10):
+    - MicrosoftFluentUI/Avatar_ios
+    - MicrosoftFluentUI/BadgeField_ios
+    - MicrosoftFluentUI/OtherCells_ios
+    - MicrosoftFluentUI/Separator_ios
+  - MicrosoftFluentUI/PillButtonBar_ios (0.2.10):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/PopupMenu_ios (0.2.10):
+    - MicrosoftFluentUI/Drawer_ios
+    - MicrosoftFluentUI/Label_ios
+    - MicrosoftFluentUI/Separator_ios
+    - MicrosoftFluentUI/TableView_ios
+  - MicrosoftFluentUI/Presenters_ios (0.2.10):
+    - MicrosoftFluentUI/Obscurable_ios
+  - MicrosoftFluentUI/ResizingHandleView_ios (0.2.10):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/ScrollView_ios (0.2.10):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/SegmentedControl_ios (0.2.10):
+    - MicrosoftFluentUI/Separator_ios
+  - MicrosoftFluentUI/Separator_ios (0.2.10):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/Shimmer_ios (0.2.10):
+    - MicrosoftFluentUI/Core_ios
+    - MicrosoftFluentUI/Utilities_ios
+  - MicrosoftFluentUI/TabBar_ios (0.2.10):
+    - MicrosoftFluentUI/Avatar_ios
+    - MicrosoftFluentUI/Label_ios
+    - MicrosoftFluentUI/Separator_ios
+  - MicrosoftFluentUI/TableView_ios (0.2.10):
+    - MicrosoftFluentUI/Label_ios
+    - MicrosoftFluentUI/Separator_ios
+  - MicrosoftFluentUI/Tooltip_ios (0.2.10):
+    - MicrosoftFluentUI/Label_ios
+    - MicrosoftFluentUI/TouchForwardingView_ios
+  - MicrosoftFluentUI/TouchForwardingView_ios (0.2.10):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/TwoLineTitleView_ios (0.2.10):
+    - MicrosoftFluentUI/EasyTapButton_ios
+    - MicrosoftFluentUI/Label_ios
+  - MicrosoftFluentUI/Utilities_ios (0.2.10)
   - nanopb (3.30910.0):
     - nanopb/decode (= 3.30910.0)
     - nanopb/encode (= 3.30910.0)
@@ -1403,27 +1559,6 @@ PODS:
     - Yoga
   - react-native-randombytes (3.6.1):
     - React-Core
-  - react-native-webview (13.13.5):
-    - DoubleConversion
-    - glog
-    - hermes-engine
-    - RCT-Folly (= 2024.10.14.00)
-    - RCTRequired
-    - RCTTypeSafety
-    - React-Core
-    - React-debug
-    - React-Fabric
-    - React-featureflags
-    - React-graphics
-    - React-ImageManager
-    - React-NativeModulesApple
-    - React-RCTFabric
-    - React-rendererdebug
-    - React-utils
-    - ReactCodegen
-    - ReactCommon/turbomodule/bridging
-    - ReactCommon/turbomodule/core
-    - Yoga
   - React-nativeconfig (0.76.9)
   - React-NativeModulesApple (0.76.9):
     - glog
@@ -1696,28 +1831,6 @@ PODS:
     - React-logger
     - React-perflogger
     - React-utils (= 0.76.9)
-  - ReactNativeFileAccess (3.1.1):
-    - DoubleConversion
-    - glog
-    - hermes-engine
-    - RCT-Folly (= 2024.10.14.00)
-    - RCTRequired
-    - RCTTypeSafety
-    - React-Core
-    - React-debug
-    - React-Fabric
-    - React-featureflags
-    - React-graphics
-    - React-ImageManager
-    - React-NativeModulesApple
-    - React-RCTFabric
-    - React-rendererdebug
-    - React-utils
-    - ReactCodegen
-    - ReactCommon/turbomodule/bridging
-    - ReactCommon/turbomodule/core
-    - Yoga
-    - ZIPFoundation
   - RNFBApp (21.11.0):
     - Firebase/CoreOnly (= 11.8.0)
     - React-Core
@@ -1732,11 +1845,10 @@ PODS:
     - RNFBApp
   - SocketRocket (0.7.1)
   - Yoga (0.0.0)
-  - ZIPFoundation (0.9.19)
 
 DEPENDENCIES:
+  - AdaptiveCards
   - boost (from `../node_modules/react-native/third-party-podspecs/boost.podspec`)
-  - ContactCenterMessagingSDK (from `https://github.com/microsoft/ContactCenterMessagingSDK-ios/releases/download/v1.0.4/ContactCenterMessagingSDK-ios.podspec`)
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - fast_float (from `../node_modules/react-native/third-party-podspecs/fast_float.podspec`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
@@ -1781,7 +1893,6 @@ DEPENDENCIES:
   - react-native-get-random-values (from `../node_modules/react-native-get-random-values`)
   - react-native-mmkv (from `../node_modules/react-native-mmkv`)
   - react-native-randombytes (from `../node_modules/react-native-randombytes`)
-  - react-native-webview (from `../node_modules/react-native-webview`)
   - React-nativeconfig (from `../node_modules/react-native/ReactCommon`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
@@ -1809,7 +1920,6 @@ DEPENDENCIES:
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
-  - ReactNativeFileAccess (from `../node_modules/react-native-file-access`)
   - "RNFBApp (from `../node_modules/@react-native-firebase/app`)"
   - "RNFBMessaging (from `../node_modules/@react-native-firebase/messaging`)"
   - "RNFBRemoteConfig (from `../node_modules/@react-native-firebase/remote-config`)"
@@ -1817,6 +1927,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - AdaptiveCards
     - Firebase
     - FirebaseABTesting
     - FirebaseCore
@@ -1829,16 +1940,14 @@ SPEC REPOS:
     - FirebaseSharedSwift
     - GoogleDataTransport
     - GoogleUtilities
+    - MicrosoftFluentUI
     - nanopb
     - PromisesObjC
     - SocketRocket
-    - ZIPFoundation
 
 EXTERNAL SOURCES:
   boost:
     :podspec: "../node_modules/react-native/third-party-podspecs/boost.podspec"
-  ContactCenterMessagingSDK:
-    :podspec: https://github.com/microsoft/ContactCenterMessagingSDK-ios/releases/download/v1.0.4/ContactCenterMessagingSDK-ios.podspec
   DoubleConversion:
     :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
   fast_float:
@@ -1916,8 +2025,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-mmkv"
   react-native-randombytes:
     :path: "../node_modules/react-native-randombytes"
-  react-native-webview:
-    :path: "../node_modules/react-native-webview"
   React-nativeconfig:
     :path: "../node_modules/react-native/ReactCommon"
   React-NativeModulesApple:
@@ -1972,8 +2079,6 @@ EXTERNAL SOURCES:
     :path: build/generated/ios
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
-  ReactNativeFileAccess:
-    :path: "../node_modules/react-native-file-access"
   RNFBApp:
     :path: "../node_modules/@react-native-firebase/app"
   RNFBMessaging:
@@ -1984,8 +2089,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
+  AdaptiveCards: 14d4d0dd8cfb6d2f7b846cf0a2db49db640af29c
   boost: 1dca942403ed9342f98334bf4c3621f011aa7946
-  ContactCenterMessagingSDK: 84f41ce2283e52369e65fa20eb8224d0edee4df6
   DoubleConversion: f16ae600a246532c4020132d54af21d0ddb2a385
   fast_float: 06eeec4fe712a76acc9376682e4808b05ce978b6
   FBLazyVector: 7605ea4810e0e10ae4815292433c09bf4324ba45
@@ -2004,6 +2109,7 @@ SPEC CHECKSUMS:
   GoogleDataTransport: aae35b7ea0c09004c3797d53c8c41f66f219d6a7
   GoogleUtilities: 00c88b9a86066ef77f0da2fab05f65d7768ed8e1
   hermes-engine: 9e868dc7be781364296d6ee2f56d0c1a9ef0bb11
+  MicrosoftFluentUI: 3b4e3103ee5b0c0b8699eeadc9b5dea9ab637377
   nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   RCT-Folly: ea9d9256ba7f9322ef911169a9f696e5857b9e17
@@ -2038,7 +2144,6 @@ SPEC CHECKSUMS:
   react-native-get-random-values: d16467cf726c618e9c7a8c3c39c31faa2244bbba
   react-native-mmkv: ef0ad6b44a71c90c660234cae828bfb3c0e43a26
   react-native-randombytes: 3c8f3e89d12487fd03a2f966c288d495415fc116
-  react-native-webview: bd489cf45e34be236df3394d3fe33a94319820d6
   React-nativeconfig: 8efdb1ef1e9158c77098a93085438f7e7b463678
   React-NativeModulesApple: cebca2e5320a3d66e123cade23bd90a167ffce5e
   React-perflogger: 72e653eb3aba9122f9e57cf012d22d2486f33358
@@ -2066,14 +2171,12 @@ SPEC CHECKSUMS:
   React-utils: ed818f19ab445000d6b5c4efa9d462449326cc9f
   ReactCodegen: f853a20cc9125c5521c8766b4b49375fec20648b
   ReactCommon: 300d8d9c5cb1a6cd79a67cf5d8f91e4d477195f9
-  ReactNativeFileAccess: d73f8e843bc2460ee20e8e687f47106f63c64184
   RNFBApp: fd5bf956d6114cd3172680ab9c2185143faaa385
   RNFBMessaging: 387873ff9c0deb29ec76b1a5c492d06012af58f4
   RNFBRemoteConfig: 6394252e2fb5f738fcd2b0b7ed73eca5b8ade6d3
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   Yoga: feb4910aba9742cfedc059e2b2902e22ffe9954a
-  ZIPFoundation: b8c29ea7ae353b309bc810586181fd073cb3312c
 
-PODFILE CHECKSUM: 678036c7359f2f5a3b1c3f645b7e3727c0515372
+PODFILE CHECKSUM: c7996a2e590e1ed6b46d636856cc3232e089b925
 
 COCOAPODS: 1.16.2

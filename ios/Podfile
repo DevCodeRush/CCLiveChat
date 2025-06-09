@@ -17,11 +17,12 @@ end
 target 'CCLiveChat' do
   config = use_native_modules!
   $sdkVersion = 'v1.0.4'
+  pod 'AdaptiveCards'
   pod 'GoogleUtilities', :modular_headers => true
   pod 'FirebaseCore', :modular_headers => true
   pod 'FirebaseInstallations', :modular_headers => true
   pod 'FirebaseABTesting', :modular_headers => true
-  pod 'ContactCenterMessagingSDK', :podspec => 'https://github.com/microsoft/ContactCenterMessagingSDK-ios/releases/download/' + $sdkVersion + '/ContactCenterMessagingSDK-ios.podspec'
+#   pod 'ContactCenterMessagingSDK', :podspec => 'https://github.com/microsoft/ContactCenterMessagingSDK-ios/releases/download/' + $sdkVersion + '/ContactCenterMessagingSDK-ios.podspec'
 
   use_react_native!(
     :path => config[:reactNativePath],
@@ -42,5 +43,18 @@ target 'CCLiveChat' do
       :mac_catalyst_enabled => false,
       # :ccache_enabled => true
     )
+
+    # Fix for AdaptiveCards pod to find React Native headers
+    installer.pods_project.targets.each do |target|
+      if target.name == 'AdaptiveCards'
+        target.build_configurations.each do |config|
+          config.build_settings['HEADER_SEARCH_PATHS'] ||= '$(inherited)'
+          config.build_settings['HEADER_SEARCH_PATHS'] += ' "${PODS_ROOT}/Headers/Public/React-Core"'
+          config.build_settings['HEADER_SEARCH_PATHS'] += ' "${PODS_ROOT}/Headers/Public/React-graphics"'
+          config.build_settings['HEADER_SEARCH_PATHS'] += ' "${PODS_ROOT}/Headers/Public/React"'
+          config.build_settings['HEADER_SEARCH_PATHS'] += ' "${PODS_ROOT}/Headers/Public/React-utils"'
+        end
+      end
+    end
   end
 end
